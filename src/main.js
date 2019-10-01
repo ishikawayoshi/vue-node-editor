@@ -8,7 +8,7 @@ import "buefy/dist/buefy.css";
 Vue.use(Buefy);
 
 Vue.prototype.axios = axios.create({
-  baseURL
+  baseURL: "http://localhost:8080/api"
 });
 
 new Vue({
